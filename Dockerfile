@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:7
 
 RUN wget -P /opt https://s3-us-west-2.amazonaws.com/wso2-stratos/wso2am-1.9.1.zip && \
     apt-get update && \
